@@ -105,6 +105,8 @@
 .container .container-section-1 h1 {
     font-size: 38px;
     color: #1f2937;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .container .container-section-1 div {
@@ -154,4 +156,56 @@
 .container .container-section-2 .autograph{
     display: flex;
     justify-content: end;
+}
+
+.container .container-section-3{
+    padding: 3rem 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .container-section-3 article{
+    width: 100%;
+    background-color: #3882f6;
+    padding: 2.8rem 8rem;
+    border-radius: 12px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+}
+.container .container-section-3 article h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container .container-section-3 article p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container .container-section-3 article .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container .container-section-3 article button{
+    background-color: transparent;
+    padding: .4rem 2.8rem;
+    color:#e5e7eb;
+    font-size: 18px;
+    border: #e5e7eb 2px solid;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.container .container-section-3 article button:hover{
+    cursor: pointer;
+    background-color: #e5e7eb;
+    color: #3882f6;
+}
+
+.container .container-section-3 article button:active{
+    transform: scale(0.9);
 }
